@@ -1,0 +1,190 @@
+{
+	"name": "Property_Area <= 0.5",
+	"id": "r1",
+	"children": [
+		{
+			"name": "Loan_Amount_Term <= 154.5",
+			"id":  "d1",
+			"children": [
+				{
+					"name": "Dependents <= 0.5",
+					"id":  "d2",
+					"children": [
+						{
+							"name": "Loan_Amount <= 9650.5",
+							"id":  "d3",
+							"children": [
+								{"name": "l1", "id": "l1", "value": false},
+								{
+									"name": "Coapplicant_Income <= 1730.5",
+									"id":  "d4",
+									"children": [
+										{
+											"name": "Loan_Amount_Term <= 308.0",
+											"id":  "d5",
+											"children": [
+												{"name": "l2", "id": "l2", "value": true},
+												{"name": "l3", "id": "l3", "value": true}
+											]
+										},
+										{"name": "l4", "id": "l4", "value": false}
+									]
+								}
+							]
+						},
+						{
+							"name": "Loan_Amount <= 3949.0",
+							"id":  "d6",
+							"children": [
+								{"name": "l5", "id": "l5", "value": true},
+								{
+									"name": "Applicant_Income <= 0.5",
+									"id":  "d7",
+									"children": [
+										{
+											"name": "Loan_Status <= 1.5",
+											"id":  "d8",
+											"children": [
+												{"name": "l6", "id": "l6", "value": true},
+												{"name": "l7", "id": "l7", "value": true}
+											]
+										},
+										{
+											"name": "Education <= 2.0",
+											"id":  "d9",
+											"children": [
+												{"name": "l8", "id": "l8", "value": false},
+												{"name": "l9", "id": "l9", "value": "nan"}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Coapplicant_Income <= 1490.0",
+					"id":  "d10",
+					"children": [
+						{
+							"name": "Loan_Amount_Term <= 84.5",
+							"id":  "d11",
+							"children": [
+								{
+									"name": "Coapplicant_Income <= 4556.5",
+									"id":  "d12",
+									"children": [
+										{
+											"name": "Coapplicant_Income <= 4940.5",
+											"id":  "d13",
+											"children": [
+												{"name": "l10", "id": "l10", "value": true},
+												{"name": "l11", "id": "l11", "value": "nan"}
+											]
+										},
+										{
+											"name": "Loan_Amount_Term <= 134.5",
+											"id":  "d14",
+											"children": [
+												{"name": "l12", "id": "l12", "value": true},
+												{"name": "l13", "id": "l13", "value": true}
+											]
+										}
+									]
+								},
+								{
+									"name": "Loan_Amount_Term <= 60.5",
+									"id":  "d15",
+									"children": [
+										{
+											"name": "Loan_Status <= 0.5",
+											"id":  "d16",
+											"children": [
+												{"name": "l14", "id": "l14", "value": true},
+												{"name": "l15", "id": "l15", "value": false}
+											]
+										},
+										{
+											"name": "Dependents <= 0.5",
+											"id":  "d17",
+											"children": [
+												{"name": "l16", "id": "l16", "value": true},
+												{"name": "l17", "id": "l17", "value": true}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Credit_History <= 420.0",
+							"id":  "d18",
+							"children": [
+								{"name": "l18", "id": "l18", "value": true},
+								{
+									"name": "Self_Employed <= 0.5",
+									"id":  "d19",
+									"children": [
+										{"name": "l19", "id": "l19", "value": "nan"},
+										{"name": "l20", "id": "l20", "value": false}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Loan_Amount_Term <= 480.0",
+			"id":  "d20",
+			"children": [
+				{"name": "l21", "id": "l21", "value": true},
+				{
+					"name": "Loan_Amount <= 5758.0",
+					"id":  "d21",
+					"children": [
+						{"name": "l22", "id": "l22", "value": "nan"},
+						{
+							"name": "Loan_Amount_Term <= 156.0",
+							"id":  "d22",
+							"children": [
+								{
+									"name": "Loan_Amount_Term <= 172.0",
+									"id":  "d23",
+									"children": [
+										{"name": "l23", "id": "l23", "value": false},
+										{
+											"name": "Loan_Amount <= 2630.0",
+											"id":  "d24",
+											"children": [
+												{"name": "l24", "id": "l24", "value": false},
+												{"name": "l25", "id": "l25", "value": true}
+											]
+										}
+									]
+								},
+								{
+									"name": "Loan_Status <= 0.5",
+									"id":  "d25",
+									"children": [
+										{"name": "l26", "id": "l26", "value": true},
+										{
+											"name": "Loan_Amount_Term <= 97.5",
+											"id":  "d26",
+											"children": [
+												{"name": "l27", "id": "l27", "value": false},
+												{"name": "l28", "id": "l28", "value": "nan"}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

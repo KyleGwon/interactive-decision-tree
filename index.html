@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="#"> <!-- icon request bypass -->
+    <title>A</title>
+    <style>
+            
+
+    </style>
+</head>
+<body>
+
+    <button id="generator">Generate Data Point</button>
+
+    <form>
+        <label for="Gender">Gender:</label>
+        <select id="Gender" name="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <br>
+        
+        <label for="Married">Married:</label>
+        <select id="Married" name="Married">
+            <option value="No">No</option>
+            <option value="Yes">Yes</option>
+        </select>
+        <br>
+        
+        <label for="Dependents">Dependents:</label>
+        <select id="Dependents" name="Dependents">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3+">3+</option>
+        </select>
+        <br>
+        
+        <label for="Education">Education:</label>
+        <select id="Education" name="Education">
+            <option value="Graduate">Graduate</option>
+            <option value="Not Graduate">Not Graduate</option>
+        </select>
+        <br>
+        
+        <label for="Self_Employed">Self Employed:</label>
+        <select id="Self_Employed" name="Self_Employed">
+            <option value="No">No</option>
+            <option value="Yes">Yes</option>
+        </select>
+        <br>
+        
+        <label for="Applicant_Income">Applicant Income:</label>
+        <input id="Applicant_Income" type="number" name="Applicant_Income" min="0" max="999999" value="5400">
+        </input>
+        <br>
+        
+        <label for="Coapplicant_Income">Coapplicant Income:</label>
+        <input id="Coapplicant_Income" type="number" name="Coapplicant_Income" min="0" max="999999" value="1600">
+        </input>
+        <br>
+        
+        <label for="Loan_Amount">Loan Amount:</label>
+        <input id="Loan_Amount" type="number" name="Loan_Amount" min="0" max="9999" value="150">
+        </input>
+        <br>
+        
+        <label for="Loan_Amount_Term">Loan Amount Term:</label>
+        <input id="Loan_Amount_Term" type="number" name="Loan_Amount_Term" min="0" max="999" value="360">
+        </input>
+        <br>
+        
+        <label for="Credit_History">Credit History:</label>
+        <select id="Credit_History" name="Credit_History">
+            <option value="Male">0</option>
+            <option value="Female">1</option>
+        </select>
+        <br>
+        
+        <label for="Property_Area">Property Area:</label>
+        <select id="Property_Area" name="Property_Area">
+            <option value="Rural">Rural</option>
+            <option value="Semiurban">Semiurban</option>
+            <option value="Urban">Urban</option>
+        </select>
+        
+    </form>
+
+        <!-- <label>Gender:</label>
+        <input type="text"  list="Gender_List" name="Gender">
+        <br>
+
+        <label>Married:</label>
+        <input list="Y/N_List" name="Married">
+        <br>
+
+        <label>Dependents:</label>
+        <input list="Dependents_List" name="Dependents">
+        <br>
+
+        <label>Education:</label>
+        <input list="Education_List" name="Education">
+        <br>
+
+        <label>Self Employed:</label>
+        <input list="Education_List" name="Education">
+        <br>
+
+        <label>Applicant Income:</label>
+        <input list="Education_List" name="Education">
+        <br>
+
+
+
+
+
+
+        <datalist id="Gender_List">
+            <option value="Male">
+            <option value="Female">
+        </datalist>
+
+        <datalist id="Y/N_List">
+            <option value="Yes">
+            <option value="No">
+        </datalist>
+
+        <datalist id="Dependents_List">
+            <option value="1">
+            <option value="2">
+            <option value="3+">
+        </datalist> -->
+
+        
+        <!-- <h4 id="Married">Married: </h4>
+        <h4 id="Dependents">Dependents: </h4>
+        <h4 id="Education">Education: </h4>
+        <h4 id="Self_Employed">Self Employment: </h4>
+        <h4 id="Applicant_Income">Applicant Income: </h4>
+        <h4 id="Coapplicant_Income">Coapplicant Income: </h4>
+        <h4 id="Loan_Amount">Loan Amount: </h4>
+        <h4 id="Loan_Amount_Term">Loan Amount Term: </h4>
+        <h4 id="Credit_History">Credit History: </h4>
+        <h4 id="Property_Area">Property Area: </h4> -->
+
+    <!-- <div class="buttonGroup">
+        <p>Tree Structure</p>
+
+    </div> -->
+
+    <div id="chart">
+
+    </div>
+    <script src="./d3.js"></script>
+    <script src="./d3-selection-multi.js"></script>
+    <script src="./branching.js" defer></script>
+</body>
+</html>
